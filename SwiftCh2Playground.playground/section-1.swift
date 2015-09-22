@@ -1,10 +1,10 @@
 //Swift Chapter 2 - Printing to Console and Comments
 
-println("This debug message is to let you know that the app crashed")
+print("This debug message is to let you know that the app crashed")
 
 // This line is a comment.
 
-println("After this println ends, comment starts") //Comment starts here
+print("After this println ends, comment starts") //Comment starts here
 
 /* Comment on line 1
 
@@ -16,9 +16,9 @@ var currentNumberOfErrors = 5;
 
 if( currentNumberOfErrors > maxNumberOfErrors )
 {
-    println("Too many errors");
+    print("Too many errors");
 }
 else
 {
-    println("You are in safe zone")
+    print("You are in safe zone")
 }
