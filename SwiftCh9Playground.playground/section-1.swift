@@ -35,7 +35,7 @@ let lastName = "Developer"
 
 if myFullName == firstName + " " + lastName{
     
-    println("The first and last names are right")
+    print("The first and last names are right")
     
 }
 
@@ -62,7 +62,7 @@ let lastNameLowerCase = lastName.lowercaseString
 
 let age = "30"
 
-print("Age is \(age.toInt()!)")
+print("Age is \(Int(age))")
 
 
 //Exercises
