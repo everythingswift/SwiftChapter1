@@ -69,13 +69,13 @@ o > p ? "a is greater than b" : "a is less than or equal to b"
 
 for index in 1...5
 
-{    println("\(index)") }
+{    print("\(index)") }
 
 //Half-closed range operastor
 
 for index in 1..<5
 
-{    println("\(index)")  }
+{    print("\(index)")  }
 
 //Logical Operator
 //Logical NOT
@@ -98,7 +98,7 @@ var yob = 1988
 
 if (age > 0 && yob > 1987)
 {
-    println("User is eligible to create account")
+    print("User is eligible to create account")
 }
 
 //Exercises
@@ -115,11 +115,11 @@ let first = "Swift"
 let last = "Coder"
 if (first > last)
 {
-    println("String first is greater than last")
+    print("String first is greater than last")
 }
 else
 {
-    println("String last is greater than first")
+    print("String last is greater than first")
 }
 
 //Try writing a few statements using ternary operator and verify the results.
@@ -133,26 +133,26 @@ let condition2 = false
 
 if(!condition2)
 {
-    println("condition2 is false")
+    print("condition2 is false")
 }
 
 if(condition1 || condition2)
 {
-    println("Atleast one of the conditions is true")
+    print("Atleast one of the conditions is true")
 }
 
 if(condition1 && condition2)
 {
-    println("Condition1 and Condition2 do not match")
+    print("Condition1 and Condition2 do not match")
 }
 else
 {
-    println("Condition1 and Condition2 match")
+    print("Condition1 and Condition2 match")
 }
 
 //Do you need any extra parentheses for the code example under parentheses section.
 // Need extra curly braces around the println statement
 if (age > 0 && yob > 1987)
 {
-    println("User is eligible to create account")
+    print("User is eligible to create account")
 }

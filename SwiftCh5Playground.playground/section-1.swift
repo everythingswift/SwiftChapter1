@@ -2,24 +2,24 @@ var noOfPeople:Int?   //Line 1
 
 if (noOfPeople != nil)  //Line 2
     
-{     println("Value Exists") }  //Line 3
+{     print("Value Exists") }  //Line 3
     
 else   //Line 4
     
-{     println("\(noOfPeople)") }//Line 5
+{     print("\(noOfPeople)") }//Line 5
 
 
 let unwrapThisConstant:Int? = 5
 
-println("\(unwrapThisConstant!)")
+print("\(unwrapThisConstant!)")
 
 let totalPeople:String = "8"
 
-if let noOfPeople = totalPeople.toInt()  //Line 6
+if let noOfPeople = Int(totalPeople)  //Line 6
     
 {
     
-    println ("There are \(noOfPeople) persons in the room")  //Line 7
+    print("There are \(noOfPeople) persons in the room")  //Line 7
     
 }
 
@@ -40,4 +40,4 @@ var yourAge:Int?
 //3. Create an implicit unwrapped optional and without assigning any value, see what error it shows when you try to read it's value. Is this similar to error in 2?
 //
 var hisAge:Int!
-println("His age is \(hisAge)")
+print("His age is \(hisAge)")

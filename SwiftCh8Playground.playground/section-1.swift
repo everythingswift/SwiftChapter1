@@ -7,9 +7,9 @@ let myEmptyName = String()
 
 let myEmptyName2 = ""
 
-let myFirstName = String.init("Swift")
+var myFirstName = String.init("Swift")
 
-let myLastName = String.convertFromStringInterpolation(myFirstName ," Coder")
+myFirstName.insertContentsOf(" Coder".characters, at: myFirstName.endIndex.predecessor())
 
 //Checking if string is empty
 
@@ -27,7 +27,7 @@ if(myEmptyName2.isEmpty) {
 
 //Calculating the length of the string
 
-print("The length of string myName is \(countElements(myName))")
+print("The length of string myName is \(myName.characters.count)")
 
 
 //Exercises - Solutions
@@ -55,5 +55,5 @@ let isSwitchON = "true"
 
 //6. Create a 10 character string, retrieve the 5th character.
 let tenCharacters = "ABCDEFGHIJ"
-let index = advance(tenCharacters.startIndex, 5)
+let index = tenCharacters.startIndex.advancedBy(4)
 let fifthCharacter = tenCharacters[index]
